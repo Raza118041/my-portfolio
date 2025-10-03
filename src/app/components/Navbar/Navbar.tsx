@@ -16,11 +16,11 @@ const Navbar = () => {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
     return (
-        <nav className='fixed w-full bg-gray-50 top-0 left-0 right-0 z-50'>
+        <nav className='w-full bg-gray-50 z-50'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-20 py-3 md:py-4 flex items-center justify-between'>
                 {/* Logo  */}
                 <div className='flex items-center text-xl sm:text-2xl font-bold text-gray-900'>
-                    <div className="w-8 h-8 sm:h-10 sm:w-10 flex items-center justify-center rounded-full border-3 sm:border-4 border-sidebar-ring text-sidebar-ring mr-2">
+                    <div className="w-8 h-8 sm:h-10 flex items-center justify-center rounded-full border-3 sm:border-4 border-sidebar-ring text-sidebar-ring mr-2">
                         C
                     </div>
                     <span>

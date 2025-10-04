@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 import Hero from './components/Hero/Hero'
+import About from './about/page'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -17,6 +18,7 @@ const Page = () => {
   return (
     <div>
       <Hero />
+      <About />
     </div>
   )
 }
